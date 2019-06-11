@@ -8,7 +8,7 @@ demanda:_
 
 Cadastrar aeronaves, vôos, aeroportos e cidades e inseri-los no sistema para que
 possa ser realizado um melhor gerenciamento do transporte aéreo no Brasil;
-Um aeronave pode ser um helicóptero ou avião, sendo que cada aeronave é
+Uma aeronave pode ser um helicóptero ou avião, sendo que cada aeronave é
 representada pelo seu prefixo, pelo nome do seu modelo, pelo nome do seu fabricante.
 Um avião possui a quantidade de assentos e o nome da empresa. Um helicóptero possui
 um tipo que pode ser: Resgate, Taxi aéreo e Guarda costeira. Implemente as classes que
