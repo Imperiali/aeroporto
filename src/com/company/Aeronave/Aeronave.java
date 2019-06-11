@@ -1,6 +1,6 @@
 package com.company.Aeronave;
 
-public class Aeronave {
+public abstract class Aeronave {
   private String prefixo;
   private String modelo;
   private String fabricante;
