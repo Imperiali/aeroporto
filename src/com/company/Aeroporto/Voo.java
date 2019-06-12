@@ -1,12 +1,63 @@
 package com.company.Aeroporto;
 
 public class Voo {
-  /*
-  TODO Um voo possui número, data de partida, horário de partida, horário de chegada e número de vagas. Além disso, um vôo está associado aos aeroportos de origem, de destino e a aeronave. Todos os voos de aviões ocorrem uma vez para cada dia da semana. O sistema deve permitir incluir, remover e editar voos. A partir do número de um voo, obter o número de vagas disponíveis, a data de partida, o horário de partida, o horário de chegada, a descrição da aeronave empregada, os códigos e os nomes dos aeroportos de origem e de destino. Implemente uma classe que contemple os atributos e métodos apresentados.
-  * */
+  // TODO  Além disso, um vôo está associado aos aeroportos de origem, de destino e a aeronave. (???)
   private int numero;
   private String dataPartida;
   private String horarioPartida;
   private String horarioChegada;
   private int vagas;
+
+  public Voo(int numero, String dataPartida, String horarioPartida, String horarioChegada, int vagas) {
+    this.numero = numero;
+    this.dataPartida = dataPartida;
+    this.horarioPartida = horarioPartida;
+    this.horarioChegada = horarioChegada;
+    this.vagas = vagas;
+  }
+
+  //region getters and setters
+
+  public int getNumero() {
+    return numero;
+  }
+
+  public void setNumero(int numero) {
+    this.numero = numero;
+  }
+
+  public String getDataPartida() {
+    return dataPartida;
+  }
+
+  public void setDataPartida(String dataPartida) {
+    this.dataPartida = dataPartida;
+  }
+
+  public String getHorarioPartida() {
+    return horarioPartida;
+  }
+
+  public void setHorarioPartida(String horarioPartida) {
+    this.horarioPartida = horarioPartida;
+  }
+
+  public String getHorarioChegada() {
+    return horarioChegada;
+  }
+
+  public void setHorarioChegada(String horarioChegada) {
+    this.horarioChegada = horarioChegada;
+  }
+
+  public int getVagas() {
+    return vagas;
+  }
+
+  public void setVagas(int vagas) {
+    this.vagas = vagas;
+  }
+
+  //endregion
+
 }
