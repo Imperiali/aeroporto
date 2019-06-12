@@ -11,6 +11,11 @@ public abstract class Aeronave {
     this.fabricante = fabricante;
   }
 
+  @Override
+  public String toString() {
+    return prefixo + modelo + fabricante;
+  }
+
   //  region Getters and Setters
 
   public String getPrefixo() {
