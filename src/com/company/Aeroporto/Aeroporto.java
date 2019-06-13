@@ -75,8 +75,8 @@ public class Aeroporto {
   }
 
   @Override
-  public boolean equals(Aeroporto aeroporto) {
-    return aeroporto.getCodigo().equals(this.codigo);
+  public boolean equals(Object aeroporto) {
+    return ((Aeroporto) aeroporto).getCodigo().equals(this.codigo);
   }
 
   @Override

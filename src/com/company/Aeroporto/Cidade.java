@@ -26,8 +26,8 @@ public class Cidade {
   }
 
   @Override
-  public boolean equals(Cidade outra) {
-    return outra.getNome().equals(nome) && outra.getDimensao() == dimensao;
+  public boolean equals(Object outra) {
+    return ((Cidade) outra).getNome().equals(nome) && ((Cidade) outra).getDimensao() == dimensao;
   }
 
   public String getNome() {
