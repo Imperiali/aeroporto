@@ -1,19 +1,26 @@
 package com.company.Aeroporto;
 
+import com.company.Aeronave.Aeronave;
+
 public class Voo {
-  // TODO  Além disso, um vôo está associado aos aeroportos de origem, de destino e a aeronave. (???)
   private int numero;
   private String dataPartida;
   private String horarioPartida;
   private String horarioChegada;
   private int vagas;
+  private Aeroporto aeroportoOrigem;
+  private Aeroporto aeroportoDestino;
+  private Aeronave aeronave;
 
-  public Voo(int numero, String dataPartida, String horarioPartida, String horarioChegada, int vagas) {
+  public Voo(int numero, String dataPartida, String horarioPartida, String horarioChegada, int vagas, Aeroporto aeroportoOrigem, Aeroporto aeroportoDestino, Aeronave aeronave) {
     this.numero = numero;
     this.dataPartida = dataPartida;
     this.horarioPartida = horarioPartida;
     this.horarioChegada = horarioChegada;
     this.vagas = vagas;
+    this.aeroportoOrigem = aeroportoOrigem;
+    this.aeroportoDestino = aeroportoDestino;
+    this.aeronave = aeronave;
   }
 
   //region getters and setters
@@ -56,6 +63,30 @@ public class Voo {
 
   public void setVagas(int vagas) {
     this.vagas = vagas;
+  }
+
+  public Aeroporto getAeroportoOrigem() {
+    return aeroportoOrigem;
+  }
+
+  public void setAeroportoOrigem(Aeroporto aeroportoOrigem) {
+    this.aeroportoOrigem = aeroportoOrigem;
+  }
+
+  public Aeroporto getAeroportoDestino() {
+    return aeroportoDestino;
+  }
+
+  public void setAeroportoDestino(Aeroporto aeroportoDestino) {
+    this.aeroportoDestino = aeroportoDestino;
+  }
+
+  public Aeronave getAeronave() {
+    return aeronave;
+  }
+
+  public void setAeronave(Aeronave aeronave) {
+    this.aeronave = aeronave;
   }
 
   //endregion
