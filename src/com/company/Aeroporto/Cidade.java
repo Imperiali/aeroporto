@@ -12,6 +12,25 @@ public class Cidade {
     this.dimensao = dimensao;
   }
 
+  public int vizinhosEmComum(Cidade outra) throws IllegalAccessException {
+    final int LIMITE = 40;
+    int vizinhos = 0;
+
+    for (Cidade fronteira:fronteiras){
+      for (Cidade outraFronteira:outra.getFronteiras()){
+        if (fronteira.getNome().equals(outraFronteira.getNome())){
+          vizinhos ++;
+        }
+      }
+    }
+
+    if (vizinhos > LIMITE){
+      throw new IllegalAccessException("Limite de fronteiras excedido");
+    }
+
+    return vizinhos;
+  }
+
   public boolean fazFronteira(String nome){
     boolean fronteira = false;
 
@@ -44,5 +63,13 @@ public class Cidade {
 
   public void setDimensao(double dimensao) {
     this.dimensao = dimensao;
+  }
+
+  public List<Cidade> getFronteiras() {
+    return fronteiras;
+  }
+
+  public void setFronteiras(List<Cidade> fronteiras) {
+    this.fronteiras = fronteiras;
   }
 }
