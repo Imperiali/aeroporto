@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaff52ae-66c4-4330-9910-617448f9b011" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Aeroporto/Cidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Aeroporto/Cidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,14 +17,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5825735">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="136">
+                  <first_editor>
                     <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
                   </first_editor>
                   <second_editor />
@@ -35,25 +35,40 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Voo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
+                <state>
                   <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
                   <folding>
-                    <element signature="e#574#602#0" />
+                    <element signature="e#864#865#0" expanded="true" />
                     <element signature="e#887#888#0" expanded="true" />
+                    <element signature="e#926#927#0" expanded="true" />
                     <element signature="e#956#957#0" expanded="true" />
+                    <element signature="e#992#993#0" expanded="true" />
                     <element signature="e#1020#1021#0" expanded="true" />
+                    <element signature="e#1072#1073#0" expanded="true" />
                     <element signature="e#1112#1113#0" expanded="true" />
+                    <element signature="e#1151#1152#0" expanded="true" />
                     <element signature="e#1182#1183#0" expanded="true" />
+                    <element signature="e#1240#1241#0" expanded="true" />
                     <element signature="e#1286#1287#0" expanded="true" />
+                    <element signature="e#1325#1326#0" expanded="true" />
                     <element signature="e#1356#1357#0" expanded="true" />
+                    <element signature="e#1414#1415#0" expanded="true" />
                     <element signature="e#1460#1461#0" expanded="true" />
+                    <element signature="e#1487#1488#0" expanded="true" />
                     <element signature="e#1509#1510#0" expanded="true" />
+                    <element signature="e#1546#1547#0" expanded="true" />
                     <element signature="e#1574#1575#0" expanded="true" />
+                    <element signature="e#1617#1618#0" expanded="true" />
                     <element signature="e#1649#1650#0" expanded="true" />
+                    <element signature="e#1712#1713#0" expanded="true" />
                     <element signature="e#1760#1761#0" expanded="true" />
+                    <element signature="e#1804#1805#0" expanded="true" />
                     <element signature="e#1837#1838#0" expanded="true" />
+                    <element signature="e#1902#1903#0" expanded="true" />
                     <element signature="e#1952#1953#0" expanded="true" />
+                    <element signature="e#1987#1988#0" expanded="true" />
                     <element signature="e#2012#2013#0" expanded="true" />
+                    <element signature="e#2060#2061#0" expanded="true" />
                     <element signature="e#2094#2095#0" expanded="true" />
                   </folding>
                 </state>
@@ -63,22 +78,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Cidade.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#371#372#0" expanded="true" />
-                    <element signature="e#392#393#0" expanded="true" />
-                    <element signature="e#430#431#0" expanded="true" />
-                    <element signature="e#456#457#0" expanded="true" />
-                    <element signature="e#299#300#0" expanded="true" />
-                    <element signature="e#324#325#0" expanded="true" />
-                    <element signature="e#370#371#0" expanded="true" />
-                    <element signature="e#404#405#0" expanded="true" />
-                    <element signature="e#1137#1138#0" expanded="true" />
-                    <element signature="e#1164#1165#0" expanded="true" />
-                    <element signature="e#1220#1221#0" expanded="true" />
-                    <element signature="e#1258#1259#0" expanded="true" />
-                  </folding>
+                <state>
+                  <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -86,8 +87,20 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                <state relative-caret-position="510">
+                  <caret line="23" column="97" lean-forward="true" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/Aeronave/Helicoptero.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="19" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -95,46 +108,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+                <state>
+                  <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1634#1635#0" expanded="true" />
-                    <element signature="e#1704#1705#0" expanded="true" />
-                    <element signature="e#397#398#0" expanded="true" />
-                    <element signature="e#450#451#0" expanded="true" />
-                    <element signature="e#670#671#0" expanded="true" />
-                    <element signature="e#693#694#0" expanded="true" />
-                    <element signature="e#735#736#0" expanded="true" />
-                    <element signature="e#765#766#0" expanded="true" />
-                    <element signature="e#794#795#0" expanded="true" />
-                    <element signature="e#815#816#0" expanded="true" />
-                    <element signature="e#853#854#0" expanded="true" />
-                    <element signature="e#879#880#0" expanded="true" />
-                    <element signature="e#910#911#0" expanded="true" />
-                    <element signature="e#933#934#0" expanded="true" />
-                    <element signature="e#975#976#0" expanded="true" />
-                    <element signature="e#1005#1006#0" expanded="true" />
-                    <element signature="e#1043#1044#0" expanded="true" />
-                    <element signature="e#1073#1074#0" expanded="true" />
-                    <element signature="e#1130#1131#0" expanded="true" />
-                    <element signature="e#1174#1175#0" expanded="true" />
-                    <element signature="e#1216#1217#0" expanded="true" />
-                    <element signature="e#1241#1242#0" expanded="true" />
-                    <element signature="e#1296#1297#0" expanded="true" />
-                    <element signature="e#1330#1331#0" expanded="true" />
-                    <element signature="e#1374#1375#0" expanded="true" />
-                    <element signature="e#1401#1402#0" expanded="true" />
-                    <element signature="e#1460#1461#0" expanded="true" />
-                    <element signature="e#1498#1499#0" expanded="true" />
-                    <element signature="e#1540#1541#0" expanded="true" />
-                    <element signature="e#1566#1567#0" expanded="true" />
-                    <element signature="e#1622#1623#0" expanded="true" />
-                    <element signature="e#1658#1659#0" expanded="true" />
-                    <element signature="e#2468#2469#0" expanded="true" />
-                    <element signature="e#2489#2490#0" expanded="true" />
-                    <element signature="e#2530#2531#0" expanded="true" />
-                    <element signature="e#2556#2557#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -143,8 +120,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/company/Aeronave/Aeronave.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+                <state>
+                  <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
                   <folding>
                     <element signature="e#347#348#0" expanded="true" />
                     <element signature="e#393#394#0" expanded="true" />
@@ -156,12 +133,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SECOND">
-                  <first_editor relative-caret-position="136">
+                  <first_editor>
                     <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
                   </first_editor>
                   <second_editor />
@@ -195,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Aeroporto/Voo.java" />
         <option value="$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java" />
         <option value="$PROJECT_DIR$/src/com/company/Aeroporto/Cidade.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -210,8 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,14 +224,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560374183245" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560723297862" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -295,6 +272,7 @@
       <updated>1560249855302</updated>
       <workItem from="1560249862209" duration="3177000" />
       <workItem from="1560371709943" duration="2343000" />
+      <workItem from="1560718851698" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizando workspace">
       <created>1560252279888</created>
@@ -384,10 +362,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9071000" />
+    <option name="totallyTimeSpent" value="10491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -459,17 +437,68 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/VooCrud.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Aeronave/Helicoptero.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Voo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state>
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2012#2013#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Cidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Aeronave/Aeronave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state>
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="e#347#348#0" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
@@ -477,113 +506,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Voo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding>
-            <element signature="e#574#602#0" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#2468#2469#0" expanded="true" />
-            <element signature="e#2489#2490#0" expanded="true" />
-            <element signature="e#2530#2531#0" expanded="true" />
-            <element signature="e#2556#2557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="136">
+          <first_editor>
             <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Cidade.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Aeronave/Helicoptero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="23" column="97" lean-forward="true" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
