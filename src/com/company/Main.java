@@ -7,6 +7,9 @@ import com.company.Aeroporto.Aeroporto;
 import com.company.Aeroporto.Cidade;
 import com.company.Aeroporto.Voo;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -22,5 +25,28 @@ public class Main {
 
         Voo rjsp = new Voo(555, "12/05/2019", "10:36", "12:48", 50, galeao, congonhas, comercial );
         Voo sprj = new Voo(564, "15/05/2019", "11:76", "13:57", 40, congonhas, galeao, jatinho );
+
+        congonhas.setOrigem(new ArrayList<Aeroporto>(Arrays.asList(congonhas)));
+        congonhas.setDestinos(new ArrayList<Aeroporto>(Arrays.asList(galeao)));
+        congonhas.setVoos(new ArrayList<Voo>(Arrays.asList(rjsp, sprj)));
+        congonhas.setAeronaves(new ArrayList<Aeronave>(Arrays.asList(comercial, helicopter)));
+        congonhas.setCidade(saoPaulo);
+
+        galeao.setOrigem(new ArrayList<Aeroporto>(Arrays.asList(galeao)));
+        galeao.setDestinos(new ArrayList<Aeroporto>(Arrays.asList(congonhas)));
+        galeao.setVoos(new ArrayList<Voo>(Arrays.asList(rjsp, sprj)));
+        galeao.setAeronaves(new ArrayList<Aeronave>(Arrays.asList(jatinho)));
+        galeao.setCidade(rioDeJaneiro);
+
+        try {
+            System.out.println(congonhas.numeroVoos("12/05/2019"));
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(galeao.estaPousado("TTR"));
+
+        System.out.println(congonhas.possuiRota(galeao));
+
     }
 }
