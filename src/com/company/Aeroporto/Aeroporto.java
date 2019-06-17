@@ -54,9 +54,9 @@ public class Aeroporto {
     boolean possui = false;
 
     for (Voo voo:this.voos){
-      if (voo.getAeroportoDestino().toString().equals(aeroporto.cidade)){
+      if (voo.getAeroportoDestino().getCidade().equals(aeroporto.getCidade())){
         possui = true;
-      }else if (voo.getAeroportoOrigem().toString().equals(aeroporto.cidade)){
+      }else if (voo.getAeroportoOrigem().getCidade().equals(aeroporto.getCidade())){
         possui = true;
       }
     }
