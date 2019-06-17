@@ -5,9 +5,6 @@ import com.company.Aeronave.Aeronave;
 import java.util.List;
 
 public class Aeroporto {
-  /*
-  * TODO A partir das cidades de origem e de destino, obter os números dos voos em uma determinada data; Obs 1: A quantidade máxima de aeronaves que um aeroporto pode ter em terra é igual a 100 e a quantidade máxima de outros aeroportos com os quais o aeroporto pode ter linhas saindo e chegando é 100. Gerar exceções caso isso tente ser “burlado”
-  * */
   private String codigo;
   private String nome;
   private Cidade cidade;
