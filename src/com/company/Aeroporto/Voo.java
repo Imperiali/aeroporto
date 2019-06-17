@@ -23,6 +23,14 @@ public class Voo {
     this.aeronave = aeronave;
   }
 
+  @Override
+  public String toString() {
+    return "Voo{" +
+            "aeroportoOrigem=" + aeroportoOrigem +
+            ", aeroportoDestino=" + aeroportoDestino +
+            '}';
+  }
+
   //region getters and setters
 
   public int getNumero() {
