@@ -45,6 +45,11 @@ public class Cidade {
   }
 
   @Override
+  public String toString() {
+    return nome;
+  }
+
+  @Override
   public boolean equals(Object outra) {
     return ((Cidade) outra).getNome().equals(nome) && ((Cidade) outra).getDimensao() == dimensao;
   }
