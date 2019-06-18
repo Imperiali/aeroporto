@@ -4,7 +4,7 @@ import com.company.Aeronave.Aeronave;
 
 import java.util.List;
 
-public class Aeroporto {
+public class Aeroporto implements AeroportoManager{
   private String codigo;
   private String nome;
   private Cidade cidade;
@@ -19,6 +19,7 @@ public class Aeroporto {
     this.nome = nome;
   }
 
+  @Override
   public int numeroVoos(String data) throws IllegalAccessException {
     final int LIMITE = 100;
     int voosOrigem = 0;
@@ -47,6 +48,7 @@ public class Aeroporto {
     return voosOrigem + voosDestino;
   }
 
+  @Override
   public boolean possuiRota(Aeroporto aeroporto){
     boolean possui = false;
 
@@ -62,6 +64,7 @@ public class Aeroporto {
 
   }
 
+  @Override
   public boolean estaPousado(String prefixo){
     boolean pousado = false;
 
@@ -84,6 +87,8 @@ public class Aeroporto {
   public String toString() {
     return codigo + ": " + nome + ", " + cidade;
   }
+
+  //region Getters and Setters
 
   public String getCodigo() {
     return codigo;
@@ -148,4 +153,6 @@ public class Aeroporto {
   public void setVoos(List<Voo> voos) {
     this.voos = voos;
   }
+
+  //endregion
 }

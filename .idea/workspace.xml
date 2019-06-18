@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaff52ae-66c4-4330-9910-617448f9b011" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Aeroporto/AeroportoManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java" afterDir="false" />
     </list>
@@ -50,8 +49,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+                <state relative-caret-position="521">
+                  <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -62,12 +61,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+                <state relative-caret-position="476">
+                  <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#numeroVoos#0;class#Aeroporto#0" />
-                    <element signature="method#possuiRota#0;class#Aeroporto#0" />
                     <element signature="method#estaPousado#0;class#Aeroporto#0" />
                     <element signature="e#1960#1988#0" />
                   </folding>
@@ -242,7 +240,7 @@
       <workItem from="1560249862209" duration="3177000" />
       <workItem from="1560371709943" duration="2343000" />
       <workItem from="1560718851698" duration="1420000" />
-      <workItem from="1560853076259" duration="340000" />
+      <workItem from="1560853076259" duration="642000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizando workspace">
       <created>1560252279888</created>
@@ -363,11 +361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560770195502</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Criando interface">
+      <created>1560853438122</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1560853438122</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13202000" />
+    <option name="totallyTimeSpent" value="13504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -426,7 +431,8 @@
     <MESSAGE value="Alterando classe Aeroporto&#10;&#10;Implementando Corrigindo metodo possuiRota" />
     <MESSAGE value="Alterando classe Aeroporto&#10;&#10;Removendo Todo" />
     <MESSAGE value="Alterando classe Main&#10;&#10;Implementando metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterando classe Main&#10;&#10;Implementando metodos" />
+    <MESSAGE value="Criando interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando interface" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -501,20 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#numeroVoos#0;class#Aeroporto#0" />
-            <element signature="method#possuiRota#0;class#Aeroporto#0" />
-            <element signature="method#estaPousado#0;class#Aeroporto#0" />
-            <element signature="e#1960#1988#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Voo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -527,10 +519,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Aeroporto/Aeroporto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#numeroVoos#0;class#Aeroporto#0" />
+            <element signature="method#estaPousado#0;class#Aeroporto#0" />
+            <element signature="e#1960#1988#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="521">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
